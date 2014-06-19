@@ -11,7 +11,9 @@
 
   <body class="list">
     <header class="caption">
-      <h1>UX design principles and the Government Digital Service</h1>
+      <a href="http://northern-user-experience.org/2014/05/14/nux-leeds-26-june-ux-govt-digital-service">
+        <h1>UX design principles and the Government Digital Service</h1>
+      </a>
       <p>
         A talk at
         <a href="http://northern-user-experience.org/">Northern User Experience</a>
@@ -19,9 +21,22 @@
         <a href="http://alex.mullr.net/">Alex Muller</a>
         on the 26th of June 2014.
       </p>
+      <blockquote>
+        <p>
+          Alex Muller will talk about the design principles that are
+          guiding the redesign of government online services (GOV.UK)
+          and how they are being applied, including the way they use
+          Agile project management methods to respond to user research
+          and feedback and rapidly iterate the service to meet user needs.
+          He will discuss his current project, the Performance Platform,
+          which is helping to transform government by making data open
+          and accessible. Alex will also discuss the way that aspects
+          such as accessibility and data visualisation design are incorporated.
+        </p>
+      </blockquote>
     </header>
 
-    <section class="slide intro"><div>
+    <section class="slide intro" id="intro"><div>
       <p>Alex Muller</p>
       <p>Software developer</p>
       <p>Government Digital Service</p>
@@ -61,11 +76,7 @@
       -->
     </div></section>
 
-    <!-- <section class="slide" style="background: red;"><div>
-      <p>Intro: 1 min</p>
-    </div></section> -->
-
-    <section class="slide"><div>
+    <section class="slide" id="overview"><div>
       <p>A bit of background on GDS</p>
       <p>Our design principles</p>
       <p>How my team works together</p>
@@ -74,10 +85,6 @@
         - These 3 elements are what let us create things that have a great user experience
       -->
     </div></section>
-
-    <!-- <section class="slide" style="background: red;"><div>
-      <p>Background on GDS: 5 mins</p>
-    </div></section> -->
 
     <section class="slide full-image" style="background-image: url('images/directgov-2010.png')"><div>
       <!-- <p>GDS was started in 2011</p> -->
@@ -92,7 +99,7 @@
     </div></section>
 
     <section class="slide text-large"><div>
-      <p>“force departments to improve <span style="color: rgb(243, 121, 32);">citizens’ experience</span> of key transactions”</p>
+      <p>“force departments to improve <span class="highlight orange">citizens’ experience</span> of key transactions”</p>
     </div></section>
 
     <section class="slide full-image" style="background-image: url('images/govuk-policies.png')"><div>
@@ -120,19 +127,88 @@
       <p>OCTO</p>
     </div></section>
 
-    <!-- <section class="slide" style="background: red;"><div>
-      <p>Design Principles (10 mins)</p>
-    </div></section> -->
-
     <section class="slide"><div>
       <p>Design principles</p>
       <p><a href="https://www.gov.uk/design-principles">www.gov.uk/design-principles</a></p>
     </div></section>
 
+    <section class="slide"><div>
+      <ol style="margin-left: 6%;">
+        <li>Start with needs</li>
+        <li>Do less</li>
+        <li>Design with data</li>
+        <li>Do the hard work to make it simple</li>
+        <li>Iterate. Then iterate again.</li>
+        <li>Build for inclusion</li>
+        <li>Understand context</li>
+        <li>Build digital services, not websites</li>
+        <li>Be consistent, not uniform</li>
+        <li>Make things open: it makes things better</li>
+      </ol>
+    </div></section>
+
+    <section class="slide"><div>
+      <ol style="margin-left: 6%;">
+        <li class="highlight">Start with needs</li>
+        <li>Do less</li>
+        <li class="highlight">Design with data</li>
+        <li>Do the hard work to make it simple</li>
+        <li class="highlight">Iterate. Then iterate again.</li>
+        <li>Build for inclusion</li>
+        <li>Understand context</li>
+        <li>Build digital services, not websites</li>
+        <li>Be consistent, not uniform</li>
+        <li class="highlight">Make things open: it makes things better</li>
+      </ol>
+    </div></section>
 
     <section class="slide text-large"><div>
-      <p>1</p>
-      <p>Start with needs</p>
+      <p>#10</p>
+      <p>Make things open: it makes things better</p>
+    </div></section>
+
+    <section class="slide text-large"><div>
+      <p>Words</p>
+      <p>Software</p>
+      <!--
+        - We do this in 2 ways: with things we write, and software we create
+        - Out of principle, because GDS is funded by the taxpayer
+        - And to give back to communities we've used things from
+      -->
+    </div></section>
+
+    <section class="slide text-large"><div>
+      <p>#3</p>
+      <p>Design with data</p>
+    </div></section>
+
+    <section class="slide"><div>
+      <blockquote>
+        <p>If it moves, we track it. Sometimes we’ll draw a graph of something
+        that isn’t moving yet, just in case it decides to make a run for it.</p>
+        <cite><em><a href="http://codeascraft.com/2011/02/15/measure-anything-measure-everything/">Measure Anything, Measure Everything</a></em> by Etsy</cite>
+      </blockquote>
+    </div></section>
+
+    <section class="slide text-large"><div>
+      <p>#5</p>
+      <p>Iterate. Then iterate again.</p>
+    </div></section>
+
+    <section class="slide full-image" style="background-image: url('images/release-calendar.png')"><div>
+    </div></section>
+
+    <section class="slide text-large"><div>
+      <p>Over 2000 software releases from October 2012 to June 2014</p>
+    </div></section>
+
+    <section class="slide text-large"><div>
+      <p>#1</p>
+      <p>Start with needs*</p>
+    </div></section>
+
+    <section class="slide text-large"><div>
+      <p>User needs, not government needs</p>
     </div></section>
 
     <section class="slide text-small"><div>
@@ -140,54 +216,9 @@
       <img src="images/users.jpg" style="width: 45%;" />
     </div></section>
 
-    <section class="slide text-large"><div>
-      <p>2</p>
-      <p>Do less</p>
+    <section class="slide full-image" style="background-image: url('images/performance-platform-user-needs.jpg')"><div>
+      <p>Henry's user needs wall</p>
     </div></section>
-
-    <section class="slide text-large"><div>
-      <p>3</p>
-      <p>Design with data</p>
-    </div></section>
-
-    <section class="slide text-large"><div>
-      <p>4</p>
-      <p>Do the hard work to make it simple</p>
-    </div></section>
-
-    <section class="slide text-large"><div>
-      <p>5</p>
-      <p>Iterate. Then iterate again.</p>
-    </div></section>
-
-    <section class="slide text-large"><div>
-      <p>6</p>
-      <p>Build for inclusion</p>
-    </div></section>
-
-    <section class="slide text-large"><div>
-      <p>7</p>
-      <p>Understand context</p>
-    </div></section>
-
-    <section class="slide text-large"><div>
-      <p>8</p>
-      <p>Build digital services, not websites</p>
-    </div></section>
-
-    <section class="slide text-large"><div>
-      <p>9</p>
-      <p>Be consistent, not uniform</p>
-    </div></section>
-
-    <section class="slide text-large"><div>
-      <p>10</p>
-      <p>Make things open: it makes things better</p>
-    </div></section>
-
-    <!-- <section class="slide" style="background: red;"><div>
-      <p>My team (10 mins)</p>
-    </div></section> -->
 
     <section class="slide full-image" style="background-image: url('images/performance-platform-team.jpg')"><div>
     </div></section>
@@ -196,7 +227,15 @@
       <p>Screenshot of what we build</p>
     </div></section>
 
-    <section class="slide"><div>
+    <section class="slide text-large"><div>
+      <p>Accessibility</p>
+    </div></section>
+
+    <section class="slide text-large"><div>
+      <p>Displaying data</p>
+    </div></section>
+
+<!--     <section class="slide"><div>
       <p>The product manager</p>
     </div></section>
 
@@ -219,7 +258,7 @@
     <section class="slide"><div>
       <p>User researchers</p>
     </div></section>
-
+ -->
     <!-- <section class="slide" style="background: red;"><div>
       <p>Outro (2 mins)</p>
     </div></section> -->
@@ -243,7 +282,7 @@
 
     <section class="slide text-small"><div>
       <p>Use our code</p>
-      <p><a href="https://github.com/alphagov">https://github.com/alphagov</a></p>
+      <p><a href="https://alphagov.github.io">https://alphagov.github.io</a></p>
     </div></section>
 
     <section class="slide text-small"><div>
@@ -251,7 +290,7 @@
       <p><a href="https://gds.blog.gov.uk/jobs/">https://gds.blog.gov.uk/jobs/</a></p>
     </div></section>
 
-    <section class="slide outro"><div>
+    <section class="slide outro" id="outro"><div>
       <p>Alex Muller</p>
       <p>Software developer</p>
       <p>Government Digital Service</p>
